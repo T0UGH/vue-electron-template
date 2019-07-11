@@ -1,6 +1,7 @@
 <template>
     <el-row class="tac">
         <el-col :span="24">
+            <!--<el-scrollbar wrap-style="max-height:200px;" view-style="font-weight: bold;" view-class="view-box" :native="false">-->
             <el-menu
                     default-active="2"
                     class="el-menu-vertical-demo">
@@ -45,7 +46,17 @@
                     <i class="el-icon-setting"></i>
                     <span slot="title">导航四</span>
                 </el-menu-item>
+
+                <el-menu-item index="4">
+                    <i class="el-icon-setting"></i>
+                    <span slot="title">导航四</span>
+                </el-menu-item>
+                <el-menu-item index="4">
+                    <i class="el-icon-setting"></i>
+                    <span slot="title">导航四</span>
+                </el-menu-item>
             </el-menu>
+            <!--</el-scrollbar>-->
         </el-col>
     </el-row>
 </template>

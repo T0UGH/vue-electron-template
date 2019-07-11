@@ -9,7 +9,7 @@
         </el-col>
         <el-col :span="8" class="el-tabs__nav-wrap">
             <el-row type="flex" class="row-bg" justify="end">
-                <el-col :span="20">
+                <el-col :span="18">
                     <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" :router="true" @select="handleSelect">
                         <el-menu-item index="home"><b>首页</b></el-menu-item>
                         <el-menu-item index="product"><b>产品</b></el-menu-item>

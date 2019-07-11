@@ -9,7 +9,9 @@
       </el-aside>
       <el-container>
         <el-main>
+          <!--<el-scrollbar wrap-style="max-height: 200px;" view-style="font-weight: bold;" view-class="view-box" :native="false">-->
             <router-view></router-view>
+          <!--</el-scrollbar>-->
         </el-main>
         <el-footer height="20">
           <el-divider></el-divider>
