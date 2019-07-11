@@ -9,8 +9,22 @@
       </el-aside>
       <el-container>
         <el-main>
+          <!--<el-scrollbar wrap-style="max-height: 200px;" view-style="font-weight: bold;" view-class="view-box" :native="false">-->
             <router-view></router-view>
+          <!--</el-scrollbar>-->
         </el-main>
+        <el-footer height="20">
+          <el-divider></el-divider>
+          <el-row type="flex" class="row-bg" justify="center">
+          <el-col :span="12">
+              <div>
+                <span><el-link :underline="false" type="primary" href="#">Copyright &copy; 2019 T0UGH </el-link></span>
+                      <el-divider direction="vertical"></el-divider>
+                <span><el-link :underline="false" type="primary" href="#">Powered by HOSO</el-link></span>
+              </div>
+            </el-col>
+          </el-row>
+        </el-footer>
       </el-container>
     </el-container>
   </el-container>
